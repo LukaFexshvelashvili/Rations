@@ -1,0 +1,45 @@
+h1 {
+  font-size: 70px;
+  color: #ffffff;
+  letter-spacing: 1px;
+  font-family: main_sb;
+}
+
+h2 {
+  font-size: 40px;
+  color: #1f0a00;
+  letter-spacing: 1px;
+  font-family: main_sb;
+}
+
+h3 {
+  font-size: 24px;
+  color: #1f0a00;
+  letter-spacing: 1px;
+  font-family: main_sb;
+}
+
+h4 {
+  font-size: 22px;
+  color: #1f0a00;
+  letter-spacing: 1px;
+  font-family: main_m;
+}
+
+p {
+  font-size: 18px;
+  color: #d3cbc6;
+  letter-spacing: 1px;
+  font-family: main_r;
+}
+
+.DButton {
+  background-color: #fe5000;
+  border-radius: 8px;
+  color: #ffffff;
+  font-family: main_sb;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 8px 20px;
+  border: 0;
+}
