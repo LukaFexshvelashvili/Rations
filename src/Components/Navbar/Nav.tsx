@@ -5,7 +5,7 @@ export default function Nav() {
     <nav>
       <div className="contentContainer">
         <div className="NavContent">
-          <div className="NavLogo">
+          <div className="LogoText">
             Rati<span>ons.</span>
           </div>
           <ul>

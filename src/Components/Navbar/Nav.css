@@ -7,15 +7,6 @@ nav {
   align-items: center;
   justify-content: space-between;
 }
-.NavContent .NavLogo {
-  color: #1f0a00;
-  font-family: main_sb;
-  letter-spacing: 1px;
-  font-size: 28px;
-}
-.NavContent .NavLogo span {
-  color: #fe5000;
-}
 .NavContent ul {
   display: flex;
   align-items: center;
@@ -58,4 +49,14 @@ nav {
   opacity: 1;
   width: 4px;
   border-radius: 50%;
+}
+
+.LogoText {
+  color: #1f0a00;
+  font-family: main_sb;
+  letter-spacing: 1px;
+  font-size: 28px;
+}
+.LogoText span {
+  color: #fe5000;
 }

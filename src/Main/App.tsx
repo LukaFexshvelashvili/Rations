@@ -1,3 +1,4 @@
+import Footer from "../Components/Footer/Footer";
 import Nav from "../Components/Navbar/Nav";
 import Stats from "../Components/Stats/Stats";
 import Feedbacks from "../Sections/Feedbacks/Feedbacks";
@@ -19,6 +20,7 @@ function App() {
       <div className="contentContainer">
         <Feedbacks />
       </div>
+      <Footer />
     </div>
   );
 }

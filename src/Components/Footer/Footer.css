@@ -1,0 +1,114 @@
+footer {
+  background-color: #1f0a00;
+  padding: 50px 0 0 0;
+}
+
+.OrderFood {
+  width: 100%;
+}
+.OrderFood .Namer h2 {
+  color: #ffffff;
+  max-width: 500px;
+}
+.OrderFood .Orderer {
+  display: flex;
+  gap: 20px;
+  justify-content: end;
+  align-items: center;
+}
+.OrderFood .Orderer button {
+  height: 45px;
+  width: 150px;
+  border: 2px solid #fe5000;
+  border-radius: 5px;
+}
+.OrderFood .Orderer button:hover {
+  border: 2px solid #ff6f37;
+}
+.OrderFood .Orderer .LButton {
+  background: transparent;
+  color: #ffffff;
+  border: 2px solid #ffffff;
+}
+
+.FooterContent {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+}
+.FooterContent .FCol {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.FooterContent .FS {
+  margin-bottom: 10px;
+}
+.FooterContent .FS h2 {
+  margin-top: 15px;
+  display: inline-flex;
+  font-size: 18px;
+  cursor: pointer;
+  color: #ffffff;
+}
+.FooterContent .FGL {
+  max-width: 25%;
+}
+.FooterContent .FDD {
+  line-height: 32px;
+}
+.FooterContent .FD p {
+  cursor: pointer;
+  font-size: 14px;
+  color: #d3cbc6;
+}
+.FooterContent .LogoText {
+  display: inline-flex;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.FooterLine {
+  height: 2px;
+  width: 100%;
+  background-color: #4d3124;
+  margin: 30px 0 0 0;
+}
+
+.UnderLine {
+  position: relative;
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.UnderLine p {
+  color: #938882;
+  font-size: 14px;
+}
+
+.SocButtons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  right: 0;
+}
+.SocButtons button {
+  height: 40px;
+  aspect-ratio: 1;
+  border-radius: 5px;
+  border: 0;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.SocButtons button:hover {
+  background-color: #d3cbc6;
+}
+.SocButtons .activeSoc {
+  background-color: #fe5000;
+}
+.SocButtons .activeSoc:hover {
+  background-color: #ff6f37;
+}
