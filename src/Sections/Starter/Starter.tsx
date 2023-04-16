@@ -1,6 +1,6 @@
 import "./Starter.css";
 import PlayIcon from "../../Images/Icons/Play.png";
-import Bg1 from "../../Images/Background/Bg1.png";
+import Bg1 from "../../Images/Background/Bg1.webp";
 
 export default function Starter() {
   return (

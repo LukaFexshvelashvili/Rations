@@ -1,4 +1,4 @@
-import Customer from "../../Images/Profile/Profile.png";
+import Customer from "../../Images/Profile/Profile.webp";
 import ArrowLeft from "../../Images/Icons/ArrowLeft.png";
 import ArrowRight from "../../Images/Icons/ArrowRight.png";
 import "./Feedbacks.css";

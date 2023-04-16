@@ -1,9 +1,9 @@
-import Dish1 from "../Images/Products/Product1.png";
-import Dish2 from "../Images/Products/Product2.png";
-import Dish3 from "../Images/Products/Product3.png";
-import Dish4 from "../Images/Products/Product4.png";
-import Dish5 from "../Images/Products/Product5.png";
-import Dish6 from "../Images/Products/Product6.png";
+import Dish1 from "../Images/Products/Product1.webp";
+import Dish2 from "../Images/Products/Product2.webp";
+import Dish3 from "../Images/Products/Product3.webp";
+import Dish4 from "../Images/Products/Product4.webp";
+import Dish5 from "../Images/Products/Product5.webp";
+import Dish6 from "../Images/Products/Product6.webp";
 
 const MenuAPI = [
   {
