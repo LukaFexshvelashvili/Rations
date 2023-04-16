@@ -1,0 +1,23 @@
+.Menu {
+  padding: 100px 0;
+  background-color: #fffaf8;
+}
+
+.MenuCards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 80px;
+}
+
+.ExploreMore {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.ExploreMore button {
+  padding: 10px 30px;
+  letter-spacing: 0.5px;
+  font-size: 16px;
+}

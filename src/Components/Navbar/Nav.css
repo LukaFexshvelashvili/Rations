@@ -1,0 +1,61 @@
+nav {
+  padding: 30px 0;
+}
+
+.NavContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.NavContent .NavLogo {
+  color: #1f0a00;
+  font-family: main_sb;
+  letter-spacing: 1px;
+  font-size: 28px;
+}
+.NavContent .NavLogo span {
+  color: #fe5000;
+}
+.NavContent ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.NavContent ul li {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  font-family: main_r;
+  color: #695d57;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.NavContent ul li::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  height: 4px;
+  aspect-ratio: 1;
+  border-radius: 5px;
+  background-color: #fe5000;
+  opacity: 0;
+  transition: opacity 0.2s, width 0.3s;
+  width: 100%;
+}
+.NavContent ul li:hover:before {
+  opacity: 1;
+  width: 4px;
+}
+.NavContent ul li:hover {
+  color: #fe5000;
+}
+.NavContent ul .liActive {
+  font-family: main_sb;
+  color: #fe5000;
+}
+.NavContent ul .liActive::before {
+  opacity: 1;
+  width: 4px;
+  border-radius: 50%;
+}

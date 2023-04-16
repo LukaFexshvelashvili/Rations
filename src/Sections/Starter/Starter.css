@@ -1,0 +1,49 @@
+.Starter {
+  background-color: #1f0a00;
+  min-height: 800px;
+  height: calc(100vh - 102px);
+  display: flex;
+  align-items: center;
+}
+
+.SplitRow {
+  display: flex;
+  align-items: center;
+}
+.SplitRow .InfoSide {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.SplitRow .InfoSide h1 {
+  line-height: 80px;
+}
+.SplitRow .InfoSide p {
+  max-width: 500px;
+}
+.SplitRow .InfoSide .BRow {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.SplitRow .InfoSide .BRow .DButton {
+  padding: 10px 25px;
+}
+.SplitRow .InfoSide .BRow .PlayButton {
+  height: 45px;
+  aspect-ratio: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 0;
+  cursor: pointer;
+}
+.SplitRow .InfoSide .BRow .PlayButton img {
+  transform: translateX(1px);
+}
+.SplitRow .ImageSide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

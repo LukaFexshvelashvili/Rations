@@ -1,0 +1,10 @@
+.Title {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    p {
+        max-width: 500px;
+    }
+}

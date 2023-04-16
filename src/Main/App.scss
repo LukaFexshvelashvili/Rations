@@ -29,6 +29,11 @@ p {
     letter-spacing: 1px;
     font-family: main_r;
 }
+.p2 {
+    font-size: 16px;
+    color: $NavText;
+    font-family: main_r;
+}
 .DButton {
     background-color: $MainColor;
     border-radius: 8px;
@@ -37,5 +42,25 @@ p {
     font-size: 16px;
     letter-spacing: 1px;
     padding: 8px 20px;
+    cursor: pointer;
     border: 0;
+    transition: 0.2s;
+    &:hover {
+        background-color: $MainColor_;
+    }
+}
+.CButton {
+    background: transparent;
+    border-radius: 8px;
+    color: $Bg;
+    font-family: main_r;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 8px 20px;
+    cursor: pointer;
+    border: 0;
+}
+img {
+    user-select: none;
+    pointer-events: none;
 }

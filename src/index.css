@@ -25,6 +25,15 @@ a {
   text-decoration: none;
 }
 
+::-webkit-scrollbar {
+  background-color: #fffaf8;
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #fe5000;
+}
+
 .contentContainer {
   padding-right: 15px;
   padding-left: 15px;

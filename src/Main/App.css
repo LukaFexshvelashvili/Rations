@@ -33,6 +33,12 @@ p {
   font-family: main_r;
 }
 
+.p2 {
+  font-size: 16px;
+  color: #695d57;
+  font-family: main_r;
+}
+
 .DButton {
   background-color: #fe5000;
   border-radius: 8px;
@@ -41,5 +47,27 @@ p {
   font-size: 16px;
   letter-spacing: 1px;
   padding: 8px 20px;
+  cursor: pointer;
   border: 0;
+  transition: 0.2s;
+}
+.DButton:hover {
+  background-color: #ff6f37;
+}
+
+.CButton {
+  background: transparent;
+  border-radius: 8px;
+  color: #1f0a00;
+  font-family: main_r;
+  font-size: 16px;
+  letter-spacing: 1px;
+  padding: 8px 20px;
+  cursor: pointer;
+  border: 0;
+}
+
+img {
+  user-select: none;
+  pointer-events: none;
 }

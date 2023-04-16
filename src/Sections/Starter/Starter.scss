@@ -1,0 +1,49 @@
+@import "../../Main/Colors.scss";
+.Starter {
+    background-color: $Bg;
+    min-height: 800px;
+    height: calc(100vh - 102px);
+    display: flex;
+    align-items: center;
+}
+.SplitRow {
+    display: flex;
+    align-items: center;
+    .InfoSide {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        h1 {
+            line-height: 80px;
+        }
+        p {
+            max-width: 500px;
+        }
+        .BRow {
+            display: flex;
+            align-items: center;
+            gap: 25px;
+            .DButton {
+                padding: 10px 25px;
+            }
+            .PlayButton {
+                height: 45px;
+                aspect-ratio: 1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border-radius: 50%;
+                border: 0;
+                cursor: pointer;
+                img {
+                    transform: translateX(1px);
+                }
+            }
+        }
+    }
+    .ImageSide {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
