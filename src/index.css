@@ -71,6 +71,9 @@ a {
   }
 }
 @media (max-width: 992px) {
+  .navToggle {
+    display: flex;
+  }
   nav {
     padding: 0px;
   }
