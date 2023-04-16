@@ -1,10 +1,12 @@
+import { useState } from "react";
 import "./Nav.css";
 
 export default function Nav() {
+  const [navActive, setNavActive] = useState(false);
   return (
     <nav>
       <div className="contentContainer">
-        <div className="NavContent">
+        <div className={`NavContent${navActive ? " NavGet" : ""}`}>
           <div className="LogoText">
             Rati<span>ons.</span>
           </div>
@@ -20,6 +22,14 @@ export default function Nav() {
             <button className="DButton">Sign Up</button>
           </div>
         </div>
+      </div>
+      <div
+        className={`navToggle${navActive ? " navToggleActive" : ""}`}
+        onClick={() => setNavActive(!navActive)}
+      >
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
     </nav>
   );
